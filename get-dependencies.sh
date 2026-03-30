@@ -13,6 +13,9 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
+make-aur-package perl-mp3-tag
+make-aur-package perl-net-freedb
+make-aur-package perl-ogg-vorbis-header-pureperl
 make-aur-package gcstar
 
 # If the application needs to be manually built that has to be done down here
