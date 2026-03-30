@@ -15,6 +15,7 @@ export DESKTOP=/usr/share/applications/gcstar.desktop
 quick-sharun \
 	/usr/bin/gcstar   \
 	/usr/bin/perl     \
+	/usr/lib/perl5    \
 	/usr/lib/gcstar   \
 	/usr/share/gcstar \
 	/usr/lib/libgtk-3.so*
