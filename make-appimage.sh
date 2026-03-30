@@ -12,7 +12,11 @@ export ICON=/usr/share/icons/hicolor/256x256/apps/gcstar.png
 export DESKTOP=/usr/share/applications/gcstar.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/gcstar /usr/lib/gcstar /usr/share/gcstar
+quick-sharun \
+	/usr/bin/gcstar   \
+	/usr/bin/perl     \
+	/usr/lib/gcstar   \
+	/usr/share/gcstar \
 
 # Additional changes can be done in between here
 
