@@ -14,6 +14,7 @@ get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
 make-aur-package perl-mp3-tag
+make-aur-package perl-cddb-file
 make-aur-package perl-net-freedb
 make-aur-package perl-ogg-vorbis-header-pureperl
 make-aur-package gcstar
