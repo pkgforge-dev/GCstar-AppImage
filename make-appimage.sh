@@ -10,6 +10,10 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/256x256/apps/gcstar.png
 export DESKTOP=/usr/share/applications/gcstar.desktop
+export PATH_MAPPING='
+	/usr/lib/perl5:${SHARUN_DIR}/lib/perl5
+	/usr/share/perl5:${SHARUN_DIR}/share/perl5
+'
 
 # Deploy dependencies
 quick-sharun \
