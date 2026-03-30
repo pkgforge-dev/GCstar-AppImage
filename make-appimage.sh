@@ -17,6 +17,7 @@ quick-sharun \
 	/usr/bin/perl     \
 	/usr/lib/gcstar   \
 	/usr/share/gcstar \
+	/usr/lib/libgtk-3.so*
 
 # Additional changes can be done in between here
 
